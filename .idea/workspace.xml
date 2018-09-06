@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a71324b-ffd6-4b74-ad6e-1120ab776488" name="Default Changelist" comment="" />
+    <list default="true" id="6a71324b-ffd6-4b74-ad6e-1120ab776488" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/tool/matrix/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tool/matrix/Matrix.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,66 +15,59 @@
     <session id="1426774855">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.76" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1014" />
+          <entry key="java" value="4252" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1014" />
+          <entry key="JAVA" value="4252" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tool/sort/Sort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1606">
-              <caret line="73" column="62" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tool/matrix/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
-              <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+            <state relative-caret-position="-3302">
+              <caret line="112" column="10" lean-forward="true" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#1394#1395#0" expanded="true" />
+                <element signature="e#1443#1444#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///opt/java/jdk-10/lib/src.zip!/java.base/java/util/ArrayList.java">
+        <entry file="file://$PROJECT_DIR$/src/tool/matrix/MatrixTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="135" column="23" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
+            <state relative-caret-position="518">
+              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,7 +84,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>compa</find>
+      <find>T</find>
+      <find>printMatix</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Double</replace>
+      <replace>printMatrix</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,6 +99,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/tool/sort/Sort.java" />
+        <option value="$PROJECT_DIR$/src/tool/matrix/MatrixTool.java" />
         <option value="$PROJECT_DIR$/src/tool/matrix/Matrix.java" />
       </list>
     </option>
@@ -123,10 +125,31 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="ToolV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToolV1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToolV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToolV1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToolV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToolV1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToolV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToolV1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
+              <item name="matrix" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="ToolV1" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -135,13 +158,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536073141080" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536249775175" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Injar" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -161,6 +185,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tool.matrix.Matrix" />
+      <module name="ToolV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tool.matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Matrix" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -173,16 +217,27 @@
       <updated>1536051721010</updated>
       <workItem from="1536051722222" duration="6095000" />
       <workItem from="1536158778774" duration="4162000" />
+      <workItem from="1536221779183" duration="17819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10257000" />
+    <option name="totallyTimeSpent" value="28076000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1922" height="1029" extended-state="6" />
+    <frame x="0" y="-4" width="1920" height="1021" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -191,11 +246,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32962137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -226,13 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/java/jdk-10/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="1243" column="23" selection-start-line="1243" selection-start-column="23" selection-end-line="1243" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///opt/java/jdk-10/lib/src.zip!/java.base/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -247,17 +295,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/java/jdk-10/lib/src.zip!/java.base/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9802">
-          <caret line="501" lean-forward="true" selection-start-line="501" selection-end-line="501" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///opt/java/jdk-10/lib/src.zip!/java.base/java/lang/Comparable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="111" column="77" lean-forward="true" selection-start-line="111" selection-start-column="77" selection-end-line="111" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10/lib/src.zip!/java.base/java/io/BufferedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10/lib/src.zip!/java.base/java/io/DataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9412">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10/lib/src.zip!/java.base/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10/lib/src.zip!/java.base/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63362">
+          <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+          <folding>
+            <element signature="e#94126#94127#0" expanded="true" />
+            <element signature="e#94164#94165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-317">
+          <caret line="561" column="11" selection-start-line="561" selection-start-column="11" selection-end-line="561" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="2643" column="26" selection-start-line="2643" selection-start-column="26" selection-end-line="2643" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558">
+          <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tool/matrix/MatrixTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
@@ -268,30 +386,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/java/jdk-10/lib/src.zip!/java.base/java/io/BufferedInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5980">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/java/jdk-10/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="135" column="23" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tool/matrix/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+        <state relative-caret-position="-3302">
+          <caret line="112" column="10" lean-forward="true" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#1443#1444#0" expanded="true" />
           </folding>
         </state>
       </provider>
