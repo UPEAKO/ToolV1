@@ -56,7 +56,7 @@ public class Matrix {
      * 通过已知数据构造矩阵
      * @param _matrix 外部传入的嵌套列表
      */
-    private Matrix(ArrayList<ArrayList<Double>> _matrix) {
+    public Matrix(ArrayList<ArrayList<Double>> _matrix) {
         this._matrix = _matrix;
         rows = _matrix.size();
         columns = _matrix.get(0).size();
@@ -271,24 +271,5 @@ public class Matrix {
             return true;
         } else
             return false;
-    }
-
-    public static void main(String [] args) {
-        ArrayList<ArrayList<Double>> _matrixA = MatrixTool.getMatrixByFilePath("/home/ubd/data/matrix1.txt");
-        ArrayList<ArrayList<Double>> _matrixB = MatrixTool.getMatrixByFilePath("/home/ubd/data/matrix2.txt");
-        Matrix A = new Matrix(_matrixA);
-        Matrix B = new Matrix(_matrixB);
-        System.out.println("A");
-        A.printMatrix();
-        System.out.println("B");
-        B.printMatrix();
-        System.out.println("加");
-        A.plus(B).printMatrix();
-        System.out.println("减");
-        A.minus(B).printMatrix();
-        System.out.println("乘");
-        A.multiply(B).printMatrix();
-        System.out.println("转置");
-        A.inversion().printMatrix();
     }
 }

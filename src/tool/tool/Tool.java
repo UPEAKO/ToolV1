@@ -1,9 +1,9 @@
-package tool.matrix;
+package tool.tool;
 
 import java.io.*;
 import java.util.ArrayList;
 
-public class MatrixTool {
+public class Tool {
     /**
      * 从文件获取矩阵
      * @param filePath 文件路径
@@ -24,7 +24,7 @@ public class MatrixTool {
                     String [] rowTexts = rowText.split(",");
                     ArrayList<Double> rows = new ArrayList<>();
                     for (String tempS:
-                         rowTexts) {
+                            rowTexts) {
                         Double tempD = Double.parseDouble(tempS);
                         rows.add(tempD);
                     }
@@ -39,5 +39,34 @@ public class MatrixTool {
             }
         }
         return _matrix;
+    }
+
+    /**
+     * 角度转弧度
+     * @param angle 角度
+     * @return 返回弧度值
+     * eg. 35.053126
+     */
+    public static double angleToRadian(double angle) {
+        int degree = (int)angle;
+        double temp = (angle - degree) * 100;
+        int minute = (int)temp;
+        double second = (temp - minute) * 100;
+        return (degree * 60 * 60 + minute * 60 + second) / (180 * 60 * 60) * Math.PI;
+    }
+
+    /**
+     * 弧度转角度
+     * @param radian 弧度
+     * @return 返回角度
+     * eg. 0.6124232354436288
+     */
+    public static double radianToAngle(double radian) {
+        double allSecond = (radian / Math.PI) * (180 * 60 * 60);
+        int degree = (int) allSecond/(60 * 60);
+        double temp = allSecond - degree * 60 * 60;
+        int minute = (int) temp / 60;
+        double second = (temp - minute * 60) * 100;
+        return degree + (double) minute / 100 + second / 1000000;
     }
 }
