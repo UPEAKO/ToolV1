@@ -43,6 +43,8 @@ public class Test {
         }
 
         System.out.println(Tool.angleToRadian(radian));
-        System.out.println(Tool.radianToAngle(Tool.angleToRadian(radian)));
+        System.out.println("角度:"+Tool.radianToAngle(Tool.angleToRadian(35.5959985999999)));
+        //坐标方位角
+        System.out.println(Tool.radianToAngle(Tool.coordinateToAzimuthAngle(-89.378,25.555,-123.456,37.125)));
     }
 }
