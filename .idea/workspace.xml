@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a71324b-ffd6-4b74-ad6e-1120ab776488" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tool/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tool/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tool/tool/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tool/tool/Tool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tool/matrix/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tool/matrix/Matrix.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,13 +17,16 @@
     <session id="1426774855">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.76" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,25 +41,42 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7025" />
+          <entry key="java" value="7702" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7025" />
+          <entry key="JAVA" value="7702" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tool/matrix/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1736">
-              <caret line="259" column="17" selection-start-line="259" selection-start-column="17" selection-end-line="259" selection-end-column="17" />
+            <state relative-caret-position="386">
+              <caret line="314" column="36" selection-start-line="314" selection-start-column="36" selection-end-line="314" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#Matrix#2;class#Matrix#0" />
+                <element signature="docComment;method#getElementByRC#0;class#Matrix#0" />
+                <element signature="method#getElementByRC#0;class#Matrix#0" />
+                <element signature="docComment;method#setElementAtRC#0;class#Matrix#0" />
+                <element signature="method#setElementAtRC#0;class#Matrix#0" />
+                <element signature="docComment;method#getRC#0;class#Matrix#0" />
+                <element signature="method#printMatrix#0;class#Matrix#0" />
+                <element signature="docComment;method#plus#0;class#Matrix#0" />
+                <element signature="method#plus#0;class#Matrix#0" />
+                <element signature="docComment;method#minus#0;class#Matrix#0" />
+                <element signature="method#minus#0;class#Matrix#0" />
+                <element signature="docComment;method#multiply#0;class#Matrix#0" />
+                <element signature="method#multiply#0;class#Matrix#0" />
+                <element signature="docComment;method#inversion#0;class#Matrix#0" />
+                <element signature="method#inversion1#0;class#Matrix#0" />
+                <element signature="docComment;method#changeBaseRow#0;class#Matrix#0" />
+                <element signature="method#changeBaseRow#0;class#Matrix#0" />
               </folding>
             </state>
           </provider>
@@ -64,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tool/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="45" column="87" selection-start-line="45" selection-start-column="87" selection-end-line="45" selection-end-column="87" />
+            <state relative-caret-position="2422">
+              <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tool/tool/Tool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="124" column="23" lean-forward="true" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
+            <state relative-caret-position="310">
+              <caret line="118" column="18" lean-forward="true" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,9 +134,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/tool/sort/Sort.java" />
         <option value="$PROJECT_DIR$/src/tool/matrix/MatrixTool.java" />
-        <option value="$PROJECT_DIR$/src/tool/matrix/Matrix.java" />
-        <option value="$PROJECT_DIR$/src/tool/Test.java" />
         <option value="$PROJECT_DIR$/src/tool/tool/Tool.java" />
+        <option value="$PROJECT_DIR$/src/tool/Test.java" />
+        <option value="$PROJECT_DIR$/src/tool/matrix/Matrix.java" />
       </list>
     </option>
   </component>
@@ -127,9 +148,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
-    <option name="y" value="16" />
-    <option name="width" value="1400" />
-    <option name="height" value="981" />
+    <option name="y" value="24" />
+    <option name="width" value="1398" />
+    <option name="height" value="945" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -139,8 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,12 +187,14 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536324778751" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536579941709" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Injar" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -246,11 +267,14 @@
       <workItem from="1536221779183" duration="17819000" />
       <workItem from="1536319696273" duration="5164000" />
       <workItem from="1536394407537" duration="10302000" />
+      <workItem from="1536576862557" duration="2177000" />
+      <workItem from="1536580130404" duration="27000" />
+      <workItem from="1536761353778" duration="5221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43542000" />
+    <option name="totallyTimeSpent" value="50967000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,7 +289,7 @@
     <frame x="0" y="-4" width="1920" height="1021" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2603834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2683706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -362,10 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-63362">
           <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
-          <folding>
-            <element signature="e#94126#94127#0" expanded="true" />
-            <element signature="e#94164#94165#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -405,10 +425,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tool/matrix/MatrixTool.java" />
-    <entry file="file://$PROJECT_DIR$/src/tool/matrix/Matrix.java">
+    <entry file="file://$PROJECT_DIR$/src/tool/tool/Tool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1736">
-          <caret line="259" column="17" selection-start-line="259" selection-start-column="17" selection-end-line="259" selection-end-column="17" />
+        <state relative-caret-position="310">
+          <caret line="118" column="18" lean-forward="true" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -417,20 +437,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tool/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="45" column="87" selection-start-line="45" selection-start-column="87" selection-end-line="45" selection-end-column="87" />
+        <state relative-caret-position="2422">
+          <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tool/tool/Tool.java">
+    <entry file="file://$PROJECT_DIR$/src/tool/matrix/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="124" column="23" lean-forward="true" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
+        <state relative-caret-position="386">
+          <caret line="314" column="36" selection-start-line="314" selection-start-column="36" selection-end-line="314" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#Matrix#2;class#Matrix#0" />
+            <element signature="docComment;method#getElementByRC#0;class#Matrix#0" />
+            <element signature="method#getElementByRC#0;class#Matrix#0" />
+            <element signature="docComment;method#setElementAtRC#0;class#Matrix#0" />
+            <element signature="method#setElementAtRC#0;class#Matrix#0" />
+            <element signature="docComment;method#getRC#0;class#Matrix#0" />
+            <element signature="method#printMatrix#0;class#Matrix#0" />
+            <element signature="docComment;method#plus#0;class#Matrix#0" />
+            <element signature="method#plus#0;class#Matrix#0" />
+            <element signature="docComment;method#minus#0;class#Matrix#0" />
+            <element signature="method#minus#0;class#Matrix#0" />
+            <element signature="docComment;method#multiply#0;class#Matrix#0" />
+            <element signature="method#multiply#0;class#Matrix#0" />
+            <element signature="docComment;method#inversion#0;class#Matrix#0" />
+            <element signature="method#inversion1#0;class#Matrix#0" />
+            <element signature="docComment;method#changeBaseRow#0;class#Matrix#0" />
+            <element signature="method#changeBaseRow#0;class#Matrix#0" />
           </folding>
         </state>
       </provider>

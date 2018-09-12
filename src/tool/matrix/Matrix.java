@@ -176,7 +176,7 @@ public class Matrix {
      * 注意被除数为0
      * @return 返回结果矩阵
      */
-    public Matrix inversion() {
+    public Matrix inversion1() {
         if (getRC()[0] != getRC()[1]) {
             System.out.println("无法求逆!");
             return null;
@@ -271,5 +271,64 @@ public class Matrix {
             return true;
         } else
             return false;
+    }
+
+    /**
+     * 平方根法求逆
+     * @return 逆矩阵
+     */
+    public Matrix inversion() {
+        if (rows != columns) {
+            System.out.println("无法求逆");
+            return null;
+        }
+
+
+        //取得上三角阵
+        Matrix T = new Matrix(rows, columns);
+        double element00 = Math.sqrt(getElementByRC(0,0));
+        T.setElementAtRC(0,0, element00);
+        for (int i = 1; i < columns; i++) {
+            T.setElementAtRC(0,i,getElementByRC(0,i) / element00);
+        }
+        //行
+        for (int i = 1; i < columns; i++) {
+            //对角线元素
+            double temp1 = 0;
+            for (int j = 0; j < i; j++) {
+                temp1 += T.getElementByRC(j,i) * T.getElementByRC(j,i);
+            }
+            double temp2 = Math.sqrt(getElementByRC(i,i) - temp1);
+            T.setElementAtRC(i,i,temp2);
+
+            //每行对角线右侧的元素遍历
+            for (int j = i + 1; j < columns; j++) {
+                double temp3 = 0;
+                for (int k = 0; k < i; k++) {
+                    temp3 += T.getElementByRC(k,i) * T.getElementByRC(k,j);
+                }
+                T.setElementAtRC(i,j,(getElementByRC(i,j) - temp3) / temp2);
+            }
+        }
+
+        T.printMatrix();
+        T.transpose().printMatrix();
+
+        return T.inversion1().multiply(T.inversion1().transpose());
+    }
+
+
+    /**
+     * 转置
+     * @return 结果
+     */
+    public Matrix transpose() {
+        Matrix result = new Matrix(columns,rows);
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                result.setElementAtRC(j,i,getElementByRC(i,j));
+            }
+        }
+        return result;
     }
 }
