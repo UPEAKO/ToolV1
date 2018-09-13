@@ -311,10 +311,18 @@ public class Matrix {
             }
         }
 
-        T.printMatrix();
-        T.transpose().printMatrix();
-
-        return T.inversion1().multiply(T.inversion1().transpose());
+        Matrix R = new Matrix(rows,columns);
+        for (int i = rows - 1; i >= 0; i--) {
+            R.setElementAtRC(i,i,1 / T.getElementByRC(i,i));
+            for (int j = i + 1; j < columns; j++) {
+                double sum =0;
+                for (int k = i + 1; k <= j; k++) {
+                    sum += T.getElementByRC(i,k) * R.getElementByRC(k,j);
+                }
+                R.setElementAtRC(i,j,-sum / T.getElementByRC(i,i));
+            }
+        }
+        return R.multiply(R.transpose());
     }
 
 
